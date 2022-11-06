@@ -10,6 +10,8 @@
 
 - 怎麼編輯網頁
 - 下載vscode
+
+    <a href="https://code.visualstudio.com/">下載點</a>
 - 在瀏覽器上面寫出hello word
 - 基礎標籤 
     <details>
@@ -27,7 +29,7 @@
     <h1> hello word</h1>
     ```
     </details>
-    
+
 
     
 - 對字體做調整 style 
