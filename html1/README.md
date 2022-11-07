@@ -35,15 +35,74 @@
 - 對字體做調整 style 
     > 怎麼設定文字大小
 
-    > 怎麼設定文字粗細
+    ```css
+    style="font-size: 50px;"
+    ```
 
     > 怎麼設定文字顏色
+
+    ```css
+    style="color:red;"
+    ```
 - url
     > 概念什麼
 
     > 絕對位置
-    
+
+        - 像是網址或是電腦內部的全部路徑名稱
+
     > 相對位置
+
+    - "./"   編輯的html為中心的當下目錄
+
+        <details>
+        <summary>./</summary>
+
+        ```sh
+        project
+        │   README.md    
+        │
+        └───資料夾1
+        │   │   index.html   <-----以要編輯的檔案基準
+        │   │   file012.txt
+        │   │
+        │   └───資料夾1-2
+        │       │   file111.txt
+        │   
+        └───資料夾2
+            │   file021.txt
+
+        ```
+        - 以index.html為基礎,因此可以獲取file012.txt、資料夾1-2的內容
+        </details>
+    
+    - "../"  編輯的html為中心的上一層目錄內容
+        <details>
+        <summary>../</summary>
+
+        ```sh
+        project
+        │   README.md    
+        │
+        └───資料夾1
+        │   │   index.html   <-----以要編輯的檔案基準
+        │   │   file012.txt
+        │   │
+        │   └───資料夾1-2
+        │       │   file111.txt
+        │   
+        └───資料夾2
+            │   file021.txt
+
+        ```
+        - 以index.html為基礎,因此可以獲取project內所有的資料夾
+        </details>
+    
+   
+
+
+
+
 
 - 自我練習
 
