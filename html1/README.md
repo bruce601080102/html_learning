@@ -59,11 +59,11 @@
         <summary>./</summary>
 
         ```sh
-        project
+        project   
         │   README.md    
-        │
-        └───資料夾1
-        │   │   index.html   <-----以要編輯的檔案基準
+        │                                          
+        └───folder1◂───────────────────────────────────────┐       
+        │   │   index.html   <-----以要編輯的檔案基準的當下目錄
         │   │   file012.txt
         │   │
         │   └───資料夾1-2
@@ -81,11 +81,11 @@
         <summary>../</summary>
 
         ```sh
-        project
-        │   README.md    
-        │
-        └───資料夾1
-        │   │   index.html   <-----以要編輯的檔案基準
+        project  ◂────────────────────────────────────────────┐
+        │   README.md                                         │
+        │                                                     │
+        └───folder1                                           │
+        │   │   index.html   <-----以要編輯的檔案基準的上一個目錄
         │   │   file012.txt
         │   │
         │   └───資料夾1-2
