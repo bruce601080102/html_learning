@@ -79,36 +79,10 @@
 
     - <h3>作業1
 
-    > 透過今天所教的元素,復刻出下方頁面
+    > 練習看看postion五個元素的應用
+    >> 應用五個屬性設定圖片位子
 
-    > 展示畫面
-    >> Username icon連結:https://cdn-icons-png.flaticon.com/512/1077/1077114.png
+    >> 嘗試做出帳號密碼的介面後並將介面放在網頁right:100px;top:50px的地方
 
-    >> Email icon連結:https://cdn-icons-png.flaticon.com/512/552/552486.png
-    
-    >> Password icon連結:https://cdn-icons-png.flaticon.com/512/807/807369.png
-
-    > 設定
-    ```css
-    body {font-family: Arial, Helvetica, sans-serif;}
-    * {box-sizing: border-box;}
-    ```
-
-    >> button padding大小為15px
-
-    >> 小方框 padding大小為10px
-    
-    >> background-color: dodgerblue;
-
-
-
-    <img src="./images/作業圖.jpg">
-    
-    *** 
-    - <h3>作業2
-
-        善用今天所教的內容,做一個簡單的畫面,自行發揮創意
-
-        ex: 備忘錄,填寫表單,購物清單...
 
 
