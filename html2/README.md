@@ -63,7 +63,9 @@
 
     > 展示畫面
     >> Username icon連結:https://cdn-icons-png.flaticon.com/512/1077/1077114.png
+
     >> Email icon連結:https://cdn-icons-png.flaticon.com/512/552/552486.png
+    
     >> Password icon連結:https://cdn-icons-png.flaticon.com/512/807/807369.png
 
     > 設定
