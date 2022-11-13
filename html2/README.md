@@ -1,4 +1,4 @@
-## 第二堂
+## 第二堂 群組化與css重要屬性介紹
 
 - 標籤div
     > 將標籤群組化
@@ -54,6 +54,26 @@
     margin-right: 15px;
     ```
 
+- CSS position
+    ```css
+    position: static;
+    ```
+
+    > static 
+    >> 默認固定物件的位置
+    
+    > absolute 
+    >> 直接定位該頁面的位置,無視物件是否存在
+
+    > relative
+    >> 效果跟static一樣
+    >>> 但可以讓absolute子元素根據他的位置定位
+
+    > fixed
+    >> 類似於便利貼那樣黏住該地方,滑動後依舊會在該位子
+
+    > sticky
+    >> 當道頂部後,會固定在頂部位置
 
 - `自我練習`
 
