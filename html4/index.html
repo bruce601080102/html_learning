@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div_line {
+            border: 1px solid blue;
+            height: 100px;
+            margin-top: 50px;
+        }
+        .box_inline {
+            border: 1px solid black;
+            padding:10px;
+            margin:10px;
+            display: inline;
+            background-color: yellow;
+        }
+
+        .block {
+            border: 1px solid black;
+            padding:10px;
+            margin: 10px;
+            color: black;
+            display: block;
+            background-color: yellow;
+            width: 150px;
+        }
+        .inline-block {
+            border: 1px solid black;
+            padding:10px;
+            margin: 10px;
+            color: black;
+            display: inline-block;
+            background-color: yellow;
+        }
+    </style>
+
+    <style>
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            /* display: inline; */
+            font-size: 16px;
+            margin: 4px 2px;
+            
+            -webkit-transition-duration: 0.4s;
+            /* Safari */
+            transition-duration: 0.4s;
+
+        }
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+        }
+        .button1:hover{
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button1:active{
+            color: red; 
+            background-color: azure;
+        }
+    </style>
+
+    <style>
+        .ribbon {
+            background-color: #5BC8F7;
+        }
+        .ribbon::before {
+            content: "比原本還要早觸發的元素狀態";
+            background-color: #dd2c2c;
+        }
+        .ribbon::after {
+            content: "比原本還要晚觸發的元素狀態";
+            background-color: #FFBA10;
+            border-color: black;
+            border-style: dotted;
+        }
+    </style>
+    <style>
+        .my-alert[ssss]{
+            position: relative;
+            text-decoration: underline;
+            color: #00F;
+            cursor: help;
+        }
+        .my-alert[ssss]:hover::after {
+            content: attr(ssss);
+            position: absolute;
+            left: 0;
+            top: 24px;
+            min-width: 200px;
+            border: 1px #aaaaaa solid;
+            border-radius: 10px;
+            background-color: #ffffcc;
+            padding: 12px;
+            color: #000000;
+            font-size: 14px;
+            z-index: 1;
+        }
+    </style>
+
+    <style>
+        a:link { color: blue; }          /* 未访问链接 */
+        a:visited { color: purple; }     /* 已访问链接 */
+        a:hover { background: yellow; }  /* 用户鼠标悬停 */
+        a:active { color: red; }         /* 激活链接 */
+
+        p:active { background: #eee; }   /* 激活段落 */
+    </style>
+
+</head>
+<body>
+    <div class="div_line">
+        =========================>
+        <div class="box_inline">測試1</div>
+        <div class="box_inline">測試1</div>
+        <div class="box_inline">測試1</div>
+    </div>
+    <div class="div_line">
+        =========================>
+        <div class="block">display:block</div>
+        <div class="block">display:block</div>
+        <div class="block">display:block</div>
+    </div>
+    <div class="div_line">
+        =========================>
+        <div class="inline-block">測試2</div>
+        <div class="inline-block">測試2</div>
+        <div class="inline-block">測試2</div>
+    </div>
+    <br>
+    <!-- <input value="test"  style="display:block;">
+    <input value="test"  style="margin-top: 10px;"> -->
+
+    <button class="button button1">Green</button>
+    <hr>
+    <span class="ribbon">原本出現的狀態</span>
+    <hr>
+    <span class="my-alert" ssss = "我被跳出來提示">提示</span>
+
+
+    <hr>
+    <p>This paragraph contains a link:
+        <a href="#">This link will turn red while you click on it.</a>
+        The paragraph will get a gray background while you click on it or the link.
+    </p>
+</body>
+</html>
