@@ -1,0 +1,37 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Comic Sans MS","Microsoft JhengHei";
+    color: #333;
+  }
+  h3{
+    color: #3F5D45;
+  }
+  .all{
+    height: 100%;
+  }
+  .menu{
+    flex: 0 1 350px;
+    justify-content: space-between; /*均匀排列每个元素 */
+    padding: 50px 0;
+    background-color: #EAF0ED;
+    color: #3F5D45;  
+  }
+  .content{
+    flex: 1 1 500px;
+    padding: 50px 60px;
+  }
+  .content .product{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content .product .sweet{
+    flex: 1 1 33.33%;
+    background-image: url('https://images.unsplash.com/photo-1525251172010-e7472985a6ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80');
+    background-size: cover;
+    height: 15vw;
+    border: 2px #fff solid;
+    box-sizing: border-box;
+  }
