@@ -1,0 +1,17 @@
+.style{
+    color: brown;
+}
+
+
+.div1 li:nth-child(odd){
+    background:#4e1417; 
+    color: aliceblue;
+}
+.div1 li:nth-child(even){
+    background:#0cee48; 
+    color: rgb(1, 12, 22);
+}
+.div1 li:nth-child(1){
+    background:#3f0972; 
+    color: rgb(228, 231, 235);
+}
