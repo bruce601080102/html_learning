@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Only Test</title>
+</head>
+<body>
+  <div>Bruce Notebook</div>
+  <div id="content">載入中...</div>
+  <script>
+    setTimeout(() => {
+      document.getElementById('content').innerText = '這是 JS 動態塞入的秘密文字';
+    }, 1000);
+  </script>
+</body>
+</html>
