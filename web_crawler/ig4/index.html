@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>防複製測試</title>
+  <style>
+    body {
+      user-select: none; /* 禁止選取 */
+    }
+  </style>
+  <script>
+    document.addEventListener("copy", function(e) {
+      e.preventDefault(); // 禁止 Ctrl+C
+      alert("禁止複製！");
+    });
+  </script>
+</head>
+<body>
+  <h1>這段文字你無法反白或 Ctrl+C，但爬蟲可以抓到嗎？</h1>
+  <p>這是用 CSS + JS 阻止使用者複製的測試網頁。</p>
+</body>
+</html>
